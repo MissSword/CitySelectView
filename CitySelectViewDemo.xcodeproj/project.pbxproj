@@ -1,0 +1,393 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A94DBA1F1C96367B002B5F42 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A94DBA1E1C96367B002B5F42 /* main.m */; };
+		A94DBA221C96367B002B5F42 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A94DBA211C96367B002B5F42 /* AppDelegate.m */; };
+		A94DBA251C96367B002B5F42 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A94DBA241C96367B002B5F42 /* ViewController.m */; };
+		A94DBA281C96367B002B5F42 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A94DBA261C96367B002B5F42 /* Main.storyboard */; };
+		A94DBA2A1C96367B002B5F42 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A94DBA291C96367B002B5F42 /* Assets.xcassets */; };
+		A94DBA2D1C96367B002B5F42 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A94DBA2B1C96367B002B5F42 /* LaunchScreen.storyboard */; };
+		A94DBA4F1C963741002B5F42 /* ChineseToPinyin.m in Sources */ = {isa = PBXBuildFile; fileRef = A94DBA361C963741002B5F42 /* ChineseToPinyin.m */; };
+		A94DBA521C963741002B5F42 /* ZXJCityModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A94DBA3B1C963741002B5F42 /* ZXJCityModel.m */; };
+		A94DBA531C963741002B5F42 /* ZXJCitySelectTool.m in Sources */ = {isa = PBXBuildFile; fileRef = A94DBA3D1C963741002B5F42 /* ZXJCitySelectTool.m */; };
+		A94DBA541C963741002B5F42 /* ZXJCitySelectView.m in Sources */ = {isa = PBXBuildFile; fileRef = A94DBA3F1C963741002B5F42 /* ZXJCitySelectView.m */; };
+		A94DBA551C963741002B5F42 /* ZXJCitySelectViewLocationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A94DBA411C963741002B5F42 /* ZXJCitySelectViewLocationManager.m */; };
+		A94DBA571C963741002B5F42 /* ZXJCityTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A94DBA451C963741002B5F42 /* ZXJCityTableViewCell.m */; };
+		A94DBA581C963741002B5F42 /* ZXJCityTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A94DBA461C963741002B5F42 /* ZXJCityTableViewCell.xib */; };
+		A94DBA591C963741002B5F42 /* ZXJCurrentCityView.m in Sources */ = {isa = PBXBuildFile; fileRef = A94DBA481C963741002B5F42 /* ZXJCurrentCityView.m */; };
+		A94DBA5A1C963741002B5F42 /* ZXJHotCityTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A94DBA4A1C963741002B5F42 /* ZXJHotCityTableViewCell.m */; };
+		A94DBA631C9637F3002B5F42 /* ZXJCitySelectViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A94DBA5E1C9637F3002B5F42 /* ZXJCitySelectViewModel.m */; };
+		A94DBA641C9637F3002B5F42 /* ZXJSelectCityViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A94DBA601C9637F3002B5F42 /* ZXJSelectCityViewController.m */; };
+		A94DBA651C9637F3002B5F42 /* ZXJSubAreasViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A94DBA621C9637F3002B5F42 /* ZXJSubAreasViewController.m */; };
+		A94DBA671C9638D0002B5F42 /* TestCityList.plist in Resources */ = {isa = PBXBuildFile; fileRef = A94DBA661C9638D0002B5F42 /* TestCityList.plist */; };
+		A94DBA691C9640FD002B5F42 /* btn-next@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A94DBA681C9640FD002B5F42 /* btn-next@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A94DBA1A1C96367B002B5F42 /* CitySelectViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CitySelectViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A94DBA1E1C96367B002B5F42 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A94DBA201C96367B002B5F42 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A94DBA211C96367B002B5F42 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A94DBA231C96367B002B5F42 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A94DBA241C96367B002B5F42 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A94DBA271C96367B002B5F42 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A94DBA291C96367B002B5F42 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A94DBA2C1C96367B002B5F42 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A94DBA2E1C96367B002B5F42 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A94DBA351C963741002B5F42 /* ChineseToPinyin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChineseToPinyin.h; sourceTree = "<group>"; };
+		A94DBA361C963741002B5F42 /* ChineseToPinyin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChineseToPinyin.m; sourceTree = "<group>"; };
+		A94DBA3A1C963741002B5F42 /* ZXJCityModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZXJCityModel.h; sourceTree = "<group>"; };
+		A94DBA3B1C963741002B5F42 /* ZXJCityModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZXJCityModel.m; sourceTree = "<group>"; };
+		A94DBA3C1C963741002B5F42 /* ZXJCitySelectTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZXJCitySelectTool.h; sourceTree = "<group>"; };
+		A94DBA3D1C963741002B5F42 /* ZXJCitySelectTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZXJCitySelectTool.m; sourceTree = "<group>"; };
+		A94DBA3E1C963741002B5F42 /* ZXJCitySelectView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZXJCitySelectView.h; sourceTree = "<group>"; };
+		A94DBA3F1C963741002B5F42 /* ZXJCitySelectView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZXJCitySelectView.m; sourceTree = "<group>"; };
+		A94DBA401C963741002B5F42 /* ZXJCitySelectViewLocationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZXJCitySelectViewLocationManager.h; sourceTree = "<group>"; };
+		A94DBA411C963741002B5F42 /* ZXJCitySelectViewLocationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZXJCitySelectViewLocationManager.m; sourceTree = "<group>"; };
+		A94DBA441C963741002B5F42 /* ZXJCityTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZXJCityTableViewCell.h; sourceTree = "<group>"; };
+		A94DBA451C963741002B5F42 /* ZXJCityTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZXJCityTableViewCell.m; sourceTree = "<group>"; };
+		A94DBA461C963741002B5F42 /* ZXJCityTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZXJCityTableViewCell.xib; sourceTree = "<group>"; };
+		A94DBA471C963741002B5F42 /* ZXJCurrentCityView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZXJCurrentCityView.h; sourceTree = "<group>"; };
+		A94DBA481C963741002B5F42 /* ZXJCurrentCityView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZXJCurrentCityView.m; sourceTree = "<group>"; };
+		A94DBA491C963741002B5F42 /* ZXJHotCityTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZXJHotCityTableViewCell.h; sourceTree = "<group>"; };
+		A94DBA4A1C963741002B5F42 /* ZXJHotCityTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZXJHotCityTableViewCell.m; sourceTree = "<group>"; };
+		A94DBA5D1C9637F3002B5F42 /* ZXJCitySelectViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZXJCitySelectViewModel.h; sourceTree = "<group>"; };
+		A94DBA5E1C9637F3002B5F42 /* ZXJCitySelectViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZXJCitySelectViewModel.m; sourceTree = "<group>"; };
+		A94DBA5F1C9637F3002B5F42 /* ZXJSelectCityViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZXJSelectCityViewController.h; sourceTree = "<group>"; };
+		A94DBA601C9637F3002B5F42 /* ZXJSelectCityViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZXJSelectCityViewController.m; sourceTree = "<group>"; };
+		A94DBA611C9637F3002B5F42 /* ZXJSubAreasViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZXJSubAreasViewController.h; sourceTree = "<group>"; };
+		A94DBA621C9637F3002B5F42 /* ZXJSubAreasViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZXJSubAreasViewController.m; sourceTree = "<group>"; };
+		A94DBA661C9638D0002B5F42 /* TestCityList.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = TestCityList.plist; sourceTree = "<group>"; };
+		A94DBA681C9640FD002B5F42 /* btn-next@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn-next@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A94DBA171C96367B002B5F42 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A94DBA111C96367B002B5F42 = {
+			isa = PBXGroup;
+			children = (
+				A94DBA1C1C96367B002B5F42 /* CitySelectViewDemo */,
+				A94DBA1B1C96367B002B5F42 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A94DBA1B1C96367B002B5F42 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A94DBA1A1C96367B002B5F42 /* CitySelectViewDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A94DBA1C1C96367B002B5F42 /* CitySelectViewDemo */ = {
+			isa = PBXGroup;
+			children = (
+				A94DBA5D1C9637F3002B5F42 /* ZXJCitySelectViewModel.h */,
+				A94DBA5E1C9637F3002B5F42 /* ZXJCitySelectViewModel.m */,
+				A94DBA5F1C9637F3002B5F42 /* ZXJSelectCityViewController.h */,
+				A94DBA601C9637F3002B5F42 /* ZXJSelectCityViewController.m */,
+				A94DBA611C9637F3002B5F42 /* ZXJSubAreasViewController.h */,
+				A94DBA621C9637F3002B5F42 /* ZXJSubAreasViewController.m */,
+				A94DBA341C963741002B5F42 /* CitySelect */,
+				A94DBA201C96367B002B5F42 /* AppDelegate.h */,
+				A94DBA211C96367B002B5F42 /* AppDelegate.m */,
+				A94DBA231C96367B002B5F42 /* ViewController.h */,
+				A94DBA241C96367B002B5F42 /* ViewController.m */,
+				A94DBA261C96367B002B5F42 /* Main.storyboard */,
+				A94DBA291C96367B002B5F42 /* Assets.xcassets */,
+				A94DBA2B1C96367B002B5F42 /* LaunchScreen.storyboard */,
+				A94DBA2E1C96367B002B5F42 /* Info.plist */,
+				A94DBA1D1C96367B002B5F42 /* Supporting Files */,
+			);
+			path = CitySelectViewDemo;
+			sourceTree = "<group>";
+		};
+		A94DBA1D1C96367B002B5F42 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A94DBA661C9638D0002B5F42 /* TestCityList.plist */,
+				A94DBA1E1C96367B002B5F42 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A94DBA341C963741002B5F42 /* CitySelect */ = {
+			isa = PBXGroup;
+			children = (
+				A94DBA681C9640FD002B5F42 /* btn-next@2x.png */,
+				A94DBA351C963741002B5F42 /* ChineseToPinyin.h */,
+				A94DBA361C963741002B5F42 /* ChineseToPinyin.m */,
+				A94DBA3A1C963741002B5F42 /* ZXJCityModel.h */,
+				A94DBA3B1C963741002B5F42 /* ZXJCityModel.m */,
+				A94DBA3C1C963741002B5F42 /* ZXJCitySelectTool.h */,
+				A94DBA3D1C963741002B5F42 /* ZXJCitySelectTool.m */,
+				A94DBA3E1C963741002B5F42 /* ZXJCitySelectView.h */,
+				A94DBA3F1C963741002B5F42 /* ZXJCitySelectView.m */,
+				A94DBA401C963741002B5F42 /* ZXJCitySelectViewLocationManager.h */,
+				A94DBA411C963741002B5F42 /* ZXJCitySelectViewLocationManager.m */,
+				A94DBA441C963741002B5F42 /* ZXJCityTableViewCell.h */,
+				A94DBA451C963741002B5F42 /* ZXJCityTableViewCell.m */,
+				A94DBA461C963741002B5F42 /* ZXJCityTableViewCell.xib */,
+				A94DBA471C963741002B5F42 /* ZXJCurrentCityView.h */,
+				A94DBA481C963741002B5F42 /* ZXJCurrentCityView.m */,
+				A94DBA491C963741002B5F42 /* ZXJHotCityTableViewCell.h */,
+				A94DBA4A1C963741002B5F42 /* ZXJHotCityTableViewCell.m */,
+			);
+			path = CitySelect;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A94DBA191C96367B002B5F42 /* CitySelectViewDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A94DBA311C96367B002B5F42 /* Build configuration list for PBXNativeTarget "CitySelectViewDemo" */;
+			buildPhases = (
+				A94DBA161C96367B002B5F42 /* Sources */,
+				A94DBA171C96367B002B5F42 /* Frameworks */,
+				A94DBA181C96367B002B5F42 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CitySelectViewDemo;
+			productName = CitySelectViewDemo;
+			productReference = A94DBA1A1C96367B002B5F42 /* CitySelectViewDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A94DBA121C96367B002B5F42 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = ZXJ;
+				TargetAttributes = {
+					A94DBA191C96367B002B5F42 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+				};
+			};
+			buildConfigurationList = A94DBA151C96367B002B5F42 /* Build configuration list for PBXProject "CitySelectViewDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A94DBA111C96367B002B5F42;
+			productRefGroup = A94DBA1B1C96367B002B5F42 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A94DBA191C96367B002B5F42 /* CitySelectViewDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A94DBA181C96367B002B5F42 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A94DBA671C9638D0002B5F42 /* TestCityList.plist in Resources */,
+				A94DBA2D1C96367B002B5F42 /* LaunchScreen.storyboard in Resources */,
+				A94DBA691C9640FD002B5F42 /* btn-next@2x.png in Resources */,
+				A94DBA2A1C96367B002B5F42 /* Assets.xcassets in Resources */,
+				A94DBA581C963741002B5F42 /* ZXJCityTableViewCell.xib in Resources */,
+				A94DBA281C96367B002B5F42 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A94DBA161C96367B002B5F42 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A94DBA631C9637F3002B5F42 /* ZXJCitySelectViewModel.m in Sources */,
+				A94DBA5A1C963741002B5F42 /* ZXJHotCityTableViewCell.m in Sources */,
+				A94DBA571C963741002B5F42 /* ZXJCityTableViewCell.m in Sources */,
+				A94DBA531C963741002B5F42 /* ZXJCitySelectTool.m in Sources */,
+				A94DBA251C96367B002B5F42 /* ViewController.m in Sources */,
+				A94DBA551C963741002B5F42 /* ZXJCitySelectViewLocationManager.m in Sources */,
+				A94DBA591C963741002B5F42 /* ZXJCurrentCityView.m in Sources */,
+				A94DBA4F1C963741002B5F42 /* ChineseToPinyin.m in Sources */,
+				A94DBA221C96367B002B5F42 /* AppDelegate.m in Sources */,
+				A94DBA1F1C96367B002B5F42 /* main.m in Sources */,
+				A94DBA541C963741002B5F42 /* ZXJCitySelectView.m in Sources */,
+				A94DBA651C9637F3002B5F42 /* ZXJSubAreasViewController.m in Sources */,
+				A94DBA521C963741002B5F42 /* ZXJCityModel.m in Sources */,
+				A94DBA641C9637F3002B5F42 /* ZXJSelectCityViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A94DBA261C96367B002B5F42 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A94DBA271C96367B002B5F42 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A94DBA2B1C96367B002B5F42 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A94DBA2C1C96367B002B5F42 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A94DBA2F1C96367B002B5F42 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A94DBA301C96367B002B5F42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A94DBA321C96367B002B5F42 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CitySelectViewDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = LXD.CitySelectViewDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A94DBA331C96367B002B5F42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CitySelectViewDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = LXD.CitySelectViewDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A94DBA151C96367B002B5F42 /* Build configuration list for PBXProject "CitySelectViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A94DBA2F1C96367B002B5F42 /* Debug */,
+				A94DBA301C96367B002B5F42 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A94DBA311C96367B002B5F42 /* Build configuration list for PBXNativeTarget "CitySelectViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A94DBA321C96367B002B5F42 /* Debug */,
+				A94DBA331C96367B002B5F42 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A94DBA121C96367B002B5F42 /* Project object */;
+}
